@@ -10,8 +10,8 @@
         <h3>UI</h3>
     </li>
     <div>
-        <img width="400px" src="./UI/3.JPG" alt="...">
-        <img width="400px" src="./UI/2.JPG" alt="...">
-        <img width="400px" src="./UI/1.JPG" alt="...">
+        <img width="600px" src="./UI/3.JPG" alt="...">
+        <img width="600px" src="./UI/2.JPG" alt="...">
+        <img width="600px" src="./UI/1.JPG" alt="...">
     </div>
 </ol>
