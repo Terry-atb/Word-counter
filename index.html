@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Word Counter</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+</head>
+<body class="main">
+
+    <h1 class="uk-heading-line uk-text-center p-4 uk-background-secondary">
+        <span class="text-light">Word Counter</span>
+    </h1>
+
+    <section>
+        <div class="content">
+            <div class="row">
+                <div class="col-sm-6">
+                    <label>
+                        <div class="mb-3">
+                        Enter total number of words you want to write: 
+                    </div> 
+                    <input type="text" id="totalwords" class="uk-input text-field w-50" onkeyup="keyUp()" placeholder="number of words...">
+                    <br><small id="notify"></small>
+                    </label>
+                    <br><br>
+                    <label>
+                        <div class="mb-1">
+                            Write here: 
+                        </div>
+                        <textarea placeholder="write here..." id="inputarea" cols="70" rows="12" class="uk-textarea text-field" onkeyup="keyUp()"></textarea>
+                    </label>
+                </div>
+                <div class="col-sm-4">
+                    <div><p>Total Words: <span id="tnw">0</span></p></div>
+                    <div><p>Word Count: <span id="wordcounted">0</span></p></div>
+                    <div><p>Word Remain: <span id="wordremained">0</span></p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- scripts -->
+    <script src="js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.5/dist/js/uikit-icons.min.js"></script>
+    
+</body>
+</html>

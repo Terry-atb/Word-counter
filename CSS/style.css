@@ -1,0 +1,32 @@
+.row {
+    margin-right: 0!important;
+}
+
+.main {
+    background-color: rgb(24, 24, 24);
+    min-height: 100vh;
+    color: #e8e8e8;
+    font-weight: 600;
+    padding: 3rem;
+    padding-top: 1rem;
+}
+
+.uk-textarea.text-field , .uk-input.text-field {
+    background-color: rgb(195,195,195);
+}
+
+.content {
+    padding: 2rem;
+}
+
+::placeholder {
+    font-size: smaller;
+    font-weight: 400;
+    font-style: oblique;
+}
+
+@media only screen and (max-width: 600px) {
+    .main {
+        padding: 1rem;
+    }
+}
