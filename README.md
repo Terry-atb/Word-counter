@@ -12,6 +12,5 @@
     <div>
         <img width="600px" src="./UI/3.JPG" alt="...">
         <img width="600px" src="./UI/2.JPG" alt="...">
-        <img width="600px" src="./UI/1.JPG" alt="...">
     </div>
 </ol>
